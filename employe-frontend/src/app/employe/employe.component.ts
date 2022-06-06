@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./employe.component.css']
 })
 export class EmployeComponent implements OnInit {
-  nom= "SY";
+  nom= "SAWANE";
   prenom= "Massire";
   age= 25;
-  public persons = ["Maya", "Maria", "Mass", "Mania", "Mama"];
+  public persons = ["Maya", "Maria", "Mass", "Mania", "Mama" ];
 
    getName(){
   return this.prenom;
